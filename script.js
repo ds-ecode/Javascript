@@ -140,4 +140,74 @@ let status = "low";
 
 console.log(status == "low"); 
 
-// > < ,>= , <= , 
+// > < ,>= , <= , == , ===,!= , !== 
+// They return boolean value
+
+// Control Flow
+
+// For Loops 
+
+// for(let i=1;i<=100;i++){
+//     console.log("Run task",i);
+
+// }
+
+// let dishes=["a","b","c","d","e","f","g","h","i",]
+// for (i=0;i<dishes.length;i++){
+//     console.log(dishes[i]);
+// }
+
+// Iteration 
+
+// While loop 
+// // for (i=0;i<5;i++){console.log("For loop",i);}
+// let j=0;
+
+// while (j<dishes.length){
+//     console.log("Favourite Dishes --> ",j+1,dishes[j]);
+//     j+=1;}
+
+    // Do while Loop
+// let j=0;
+// do{
+//     console.log("times");
+//     j++;
+// }while (j<3);
+
+// if , else , else if statements 
+
+// let budget= 7000;
+// if (budget > 6000){
+//     console.log("will do dinner in hotel") 
+
+// }else if(budget > 4500){
+//     console.log("will do at a 3 star hotel")
+// }
+// else{
+//     console.log("run if all conditions are false");
+// }
+
+// // nested if 
+// if (budget > 1000){
+//     if (budget > 6000){
+//         console.log("Number is greater than 6000");
+//     }
+//     else{
+//         console.log("Number is smaller than 6000");
+//     }
+// }
+
+//  Break and continue Statements
+
+// for (let j=0;j<5;j++){
+//     if (j == 1){
+//         continue
+//     }else if (j === 4){
+        
+//         console.log(j);
+//         break;
+//     }else{console.log(j);}
+// }
+
+// Logical Operators 
+// and && , or || , not !
