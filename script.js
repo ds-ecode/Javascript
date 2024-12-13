@@ -1,9 +1,9 @@
-console.log("Welcome to the server")
-let v=10;
-console.log('Welcome to the server')
-let firstName = "wow" ;
-let lastName = "Programmer" ;
-console.log(firstName,lastName)
+// console.log("Welcome to the server")
+// let v=10;
+// console.log('Welcome to the server')
+// let firstName = "wow" ;
+// let lastName = "Programmer" ;
+// console.log(firstName,lastName)
 // String Concatenation
 
 // Method 1  + operator 
@@ -50,7 +50,7 @@ console.log(firstName,lastName)
 //console.log(str);
 // Numbers 
 
-let score =50;
+// let score =50;
 //console.log(typeof(score));
 
 //console.log(score/2);//division
@@ -105,7 +105,7 @@ let score =50;
 
 //console.log(`Boolean value of age is --> `+BooleanValueOfAge);
 
-let dishes =["Biriyani","Chat",'Parathy'];
+// let dishes =["Biriyani","Chat",'Parathy'];
 //console.log(dishes[3]);// --> OutofBound == undefined
 
 //dishes[0] = "Karahi Paneer"
@@ -136,9 +136,9 @@ let dishes =["Biriyani","Chat",'Parathy'];
 // console.log(booleanValue);
 
 
-let status = "low";
+// let status = "low";
 
-console.log(status == "low"); 
+// console.log(status == "low"); 
 
 // > < ,>= , <= , == , ===,!= , !== 
 // They return boolean value
@@ -213,3 +213,55 @@ console.log(status == "low");
 // and && , or || , not !
 
 // console.log("This is my first line in linux")
+
+// let password = "qwerty@";
+
+
+// if (password.length > 9 && password.includes("@")){
+//     console.log("Password is Strong")
+// }else{
+//     console.log("change your password")
+// } 
+
+// let statu = false;
+// if (!statu){
+//     console.log("Your status is ",statu)
+// }
+
+// let result = true && true || false && !false;
+// console.log(result)
+
+// Variables and Block scope
+
+
+// Ternary Operator
+
+// let age=21;
+// if (age>18){
+//     console.log("can vote");
+// }else{
+//      console.log("vote after",18-age,"year");
+// }
+// let weight = 56;
+// let result = age>18 ? weight>55?"Qualify":"Weight issue" : "Fail";
+// console.log(result)
+
+// let age= 5;
+// switch(age){
+//     case 15:
+//         break
+//     case 16:
+//         break
+//     case 17:
+//         result = "Qualify"
+//         break
+//     default:
+//         result="Not allowed"
+// }
+// // Always use break in switch statements
+// console.log(result)
+
+res= NaN;
+if (res){
+    console.log("Yes")
+}
