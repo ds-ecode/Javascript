@@ -211,3 +211,5 @@ console.log(status == "low");
 
 // Logical Operators 
 // and && , or || , not !
+
+// console.log("This is my first line in linux")
